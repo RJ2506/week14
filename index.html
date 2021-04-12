@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>Form Lab</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="header">
+            <ul>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Home</li>
+            </ul>
+        </nav>
+
+        <div class="main">
+            <h1>Volunteer form</h1>
+            <p>Please fill the information bellow</p>
+            <div id="fill-in-form">
+                <form method="POST" action="https://simple-form.com/youremail@domain.com">
+                    <div id="name">
+                        <label for="text">Name</label>
+                        <input type="text" name="name" placeholder="Your name" required/>
+                    </div>
+                    <div id="email">
+                        <label for="replyTo">Email</label>
+                        <input type="email" name="replyTo" placeholder="Your email" required/>
+                    </div>
+                    <div id="message">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                        <input type="submit" value="Send" />
+                    </div>          
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>created by RJ</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+
+
+
+
