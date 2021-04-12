@@ -129,13 +129,21 @@ textarea:hover {
         font-size: 15px;
     }
 
+    #title {
+        margin-top: 20px;
+        margin-left: 75px;
+    }
+
     #fill-in-form {
         max-width: 190px;
         background-color: #f4e3b2;
         margin-top: 10px;
         margin-left: 75px;
-        padding: 5px;
-           
+        padding: 5px; 
+    }
+
+    label {
+        font-size: 15px;
     }
     
 }
