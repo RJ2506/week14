@@ -130,7 +130,7 @@ textarea:hover {
     }
 
     #titleWrapper {
-        height: 100vh;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
     }
