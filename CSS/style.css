@@ -129,6 +129,12 @@ textarea:hover {
         font-size: 15px;
     }
 
+    #titleWrapper {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
     #title {
         height: 50px;
     }
