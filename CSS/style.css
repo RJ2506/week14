@@ -5,14 +5,14 @@
 
 .container {
     display: grid;
-    grid-template-rows: 2rem 1fr 2rem;
-    grid-template-columns: 250px 1fr;
+    grid-template-rows: 5rem 1fr 5rem;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-        'h h h'
-        'm m m'
-        'f f f';
+        'h'
+        'm'
+        'f';
 
-    gap: 5px;
+    gap: none;
     width: 100vw;
     height: 100vh;
 }
@@ -39,9 +39,15 @@
     padding: 1rem;
 }
 
+
 li {
-    padding: 10px;
-    list-style-type: none;    
+    padding: 20px;
+    list-style-type: none;  
+    font-size: 25px;  
+}
+
+p {
+    font-size: 25px;
 }
 
 #top {
@@ -70,10 +76,20 @@ li {
 
 input {
     color: #286983;
+    padding: 5px;
+}
+
+input:hover {
+    background-color: #f1faee;
 }
 
 textarea {
     color: #286983;
+    padding: 5px;
+}
+
+textarea:hover {
+    background-color: #f1faee;
 }
 
 #send {
@@ -87,6 +103,24 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-rows: 2rem 1fr 2rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            'h'
+            'm'
+            'f';
+    
+        gap: none;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    li {
+        padding: 10px;
+        font-size: 15px;
+    }
     h1 {
         font-size: 20px;
     }
@@ -96,10 +130,12 @@ textarea {
     }
 
     #fill-in-form {
-        max-width: 180px;
+        max-width: 190px;
         background-color: #f4e3b2;
         margin-top: 10px;
-        padding: 5px;   
+        margin-left: 75px;
+        padding: 5px;
+           
     }
     
 }
