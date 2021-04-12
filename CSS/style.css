@@ -130,15 +130,19 @@ textarea:hover {
     }
 
     #title {
-        margin-top: 20px;
-        margin-left: 75px;
+        height: 50px;
+    }
+
+    #wrapper {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
     }
 
     #fill-in-form {
         max-width: 190px;
+        height: 210px;
         background-color: #f4e3b2;
-        margin-top: 10px;
-        margin-left: 75px;
         padding: 5px; 
     }
 
