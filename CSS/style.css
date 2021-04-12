@@ -68,6 +68,24 @@ li {
     padding: 5px;
 }
 
+input {
+    color: #286983;
+}
+
+textarea {
+    color: #286983;
+}
+
+#send {
+    background-color: #f2e9de;
+    color: #286983;
+    padding: 2px;
+}
+
+#send:hover {
+    background-color: #5bc0eb ;
+}
+
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 20px;
@@ -81,8 +99,7 @@ li {
         max-width: 180px;
         background-color: #f4e3b2;
         margin-top: 10px;
-        padding: 5px;
-        font-size: 15px;
+        padding: 5px;   
     }
     
 }
